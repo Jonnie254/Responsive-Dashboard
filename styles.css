@@ -369,3 +369,16 @@ main .recent-orders a{
     border-radius: 50% ;
     overflow: hidden;
 }
+.right-section .user-profile{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: var(--color-white);
+    padding:var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
