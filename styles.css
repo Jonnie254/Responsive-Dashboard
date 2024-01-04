@@ -353,3 +353,19 @@ main .recent-orders a{
     align-items: center;
     justify-content: center;
 }
+.right-section .dark-mode span.active{
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+.right-section .nav .profile{
+    display:flex;
+    gap:1rem;
+    text-align: right;
+}
+.right-section .nav .profile .profile-photo{
+    height: 2.8rem;
+    width:2.8rem;
+    border-radius: 50% ;
+    overflow: hidden;
+}
